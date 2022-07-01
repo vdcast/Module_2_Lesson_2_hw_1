@@ -90,8 +90,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/flAvatar"
-        app:srcCompat="@drawable/wiz_khalifa_1"
-        tools:srcCompat="@drawable/wiz_khalifa_2" />
+        app:srcCompat="@drawable/wiz_khalifa_2" />
 
     <ImageView
         android:id="@+id/ivPhoto3"
@@ -101,8 +100,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivPhoto2"
         app:layout_constraintTop_toBottomOf="@+id/flAvatar"
-        app:srcCompat="@drawable/wiz_khalifa_1"
-        tools:srcCompat="@drawable/wiz_khalifa_3" />
+        app:srcCompat="@drawable/wiz_khalifa_3" />
 
     <TextView
         android:id="@+id/tvMyInterests"
@@ -123,6 +121,7 @@
         app:layout_constraintEnd_toStartOf="@+id/ivInterest5"
         app:layout_constraintStart_toEndOf="@+id/ivInterest3"
         app:layout_constraintTop_toBottomOf="@+id/tvMyInterests"
+        app:srcCompat="@drawable/interests_4"
         tools:srcCompat="@drawable/interests_4" />
 
     <ImageView
@@ -133,7 +132,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivInterest4"
         app:layout_constraintTop_toBottomOf="@+id/tvMyInterests"
-        tools:srcCompat="@drawable/interests_5" />
+        app:srcCompat="@drawable/interests_5" />
 
     <ImageView
         android:id="@+id/ivInterest3"
@@ -143,6 +142,7 @@
         app:layout_constraintEnd_toStartOf="@+id/ivInterest4"
         app:layout_constraintStart_toEndOf="@+id/ivInterest2"
         app:layout_constraintTop_toBottomOf="@+id/tvMyInterests"
+        app:srcCompat="@drawable/interests_3"
         tools:srcCompat="@drawable/interests_3" />
 
     <ImageView
@@ -163,7 +163,7 @@
         app:layout_constraintEnd_toStartOf="@+id/ivInterest3"
         app:layout_constraintStart_toEndOf="@+id/ivInterest1"
         app:layout_constraintTop_toBottomOf="@+id/tvMyInterests"
-        tools:srcCompat="@drawable/interests_2" />
+        app:srcCompat="@drawable/interests_2" />
 
     <TextView
         android:id="@+id/tvInterest1"
@@ -239,7 +239,7 @@
         android:id="@+id/tvBestFriends"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Best friends"
         android:textColor="#323232"
         android:textSize="16sp"
@@ -255,8 +255,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivBestFriends4"
         app:layout_constraintTop_toBottomOf="@+id/tvBestFriends"
-        app:srcCompat="@drawable/friends_1"
-        tools:srcCompat="@drawable/friends_5" />
+        app:srcCompat="@drawable/friends_5" />
 
     <ImageView
         android:id="@+id/ivBestFriends1"
@@ -276,8 +275,7 @@
         app:layout_constraintEnd_toStartOf="@+id/ivBestFriends5"
         app:layout_constraintStart_toEndOf="@+id/ivBestFriends3"
         app:layout_constraintTop_toBottomOf="@+id/tvBestFriends"
-        app:srcCompat="@drawable/friends_1"
-        tools:srcCompat="@drawable/friends_4" />
+        app:srcCompat="@drawable/friends_4" />
 
     <ImageView
         android:id="@+id/ivBestFriends2"
@@ -287,8 +285,7 @@
         app:layout_constraintEnd_toStartOf="@+id/ivBestFriends3"
         app:layout_constraintStart_toEndOf="@+id/ivBestFriends1"
         app:layout_constraintTop_toBottomOf="@+id/tvBestFriends"
-        app:srcCompat="@drawable/friends_1"
-        tools:srcCompat="@drawable/friends_2" />
+        app:srcCompat="@drawable/friends_2" />
 
     <ImageView
         android:id="@+id/ivBestFriends3"
@@ -298,15 +295,14 @@
         app:layout_constraintEnd_toStartOf="@+id/ivBestFriends4"
         app:layout_constraintStart_toEndOf="@+id/ivBestFriends2"
         app:layout_constraintTop_toBottomOf="@+id/tvBestFriends"
-        app:srcCompat="@drawable/friends_1"
-        tools:srcCompat="@drawable/friends_3" />
+        app:srcCompat="@drawable/friends_3" />
 
     <Button
         android:id="@+id/btSettings"
         android:layout_width="110dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/bt_bg"
         android:text="Settings"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -319,7 +315,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/bt_bg"
         android:text="Menu"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -331,7 +327,7 @@
         android:layout_width="110dp"
         android:layout_height="48dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/bt_bg"
         android:text="Search"
         app:layout_constraintBottom_toBottomOf="parent"
