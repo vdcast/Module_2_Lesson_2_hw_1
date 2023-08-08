@@ -3,7 +3,7 @@
 
 Basics UI (XML).
 
-**Technical task:**
+**Task:**
 
 Make up your / someone else's page for the social network. There should be:
 1) Large photo and 3-5 small ones.
